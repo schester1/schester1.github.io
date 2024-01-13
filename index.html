@@ -2,10 +2,11 @@
 layout: page
 title: "Home"
 categories: media
-
 ---
 
-Hi! I'm a graduate student in the Department of Earth and Environmetal Science at Columbia University and member of the [Austermann Lab](https://www.ldeo.columbia.edu/~jackya)
+{% if site.show_excerpts %}
+  {% include home.html %}
+{% else %}
+  {% include archive.html title="Home" %}
+{% endif %}
 
-
-![profile](/assets/profile.jpeg))
