@@ -4,8 +4,8 @@ title: "Home"
 categories: media
 ---
 
-
-![Profile Picture](/assets/profile.jpeg){:width="100%"}
+<img src="/assets/profile.jpeg" alt="Profile Picture" width="400" 
+     height="500">
 
 ## About Me
 I am a graduate student in the Department of Earth and Environmental Sciences at Columbia University and member of the [Jacqueline Austermann Lab](https://www.ldeo.columbia.edu/~jackya/)
