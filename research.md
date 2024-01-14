@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: page
 title: "Research"
 ---
 
-{% if site.show_excerpts %}
- {% include home.html %}
-{% else %}
- {% include archive.html title="Posts" %}
-{% endif %}
+{% for research_topic in site.research_topics %}
+  <h2>{{ research_topic.topic }}</h2>
+  <p>{{ research_topic.content | markdownify }}</p>
+{% endfor %}
+
