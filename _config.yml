@@ -7,7 +7,8 @@ excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
 collections:
-  - research_topics
+  research_topics:
+    output: true
 
 # Layout
 
