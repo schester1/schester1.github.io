@@ -6,16 +6,9 @@ categories: media
 ---
 
 ## About Me
-[testbutton](https://google.com) 
+I am a graduate student int he Department of Earth and Environmental Sciences at Columbia University and member of the [Jacqueline Austermann Lab](https://www.ldeo.columbia.edu/~jackya/)
 
-{::comment}
 
-# {% if site.show_excerpts %}
-#  {% include home.html %}
-# {% else %}
-#  {% include archive.html title="Posts" %}
-# {% endif %}
 
-{:/comment}
 
 
