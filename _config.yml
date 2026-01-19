@@ -6,24 +6,26 @@ description: Sam Chester
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://schester1.github.io" # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+street_address: ""
+city: "New York City"
+state: "NY"
+zip_code: "01227"
+country: "USA"
+phone: ""
 
 # Social settings
 500px_url:
 facebook_url:
 github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+gitlab_url: https://github.com/schester1
+googleplus_url: 
+instagram_url: https://www.instagram.com/samchestermusic/?hl=en
+linkedin_url: 
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: 
+google_scholar_url: https://scholar.google.com/citations?user=QDMQPFMAAAAJ&hl=en
+
 
 # Build settings
 markdown: kramdown
