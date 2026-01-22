@@ -41,12 +41,12 @@ layout: default
 				<li><a href="/publications/" class="button">More</a></li>
 			</ul>
 		</article>
-		<article>
+		<!-- <article>
 			<a href="#" class="image"><img src="assets/images/" alt="" /></a>
 			<h3>Code </h3>
 			<ul class="actions">
 				<li><a href="/code/" class="button">More</a></li>
 			</ul>
-		</article>
+		</article> -->
 	</div>
 </section>
