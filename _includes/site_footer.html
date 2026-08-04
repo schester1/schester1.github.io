@@ -1,0 +1,92 @@
+<!-- Footer -->
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+
+        <!-- Contact -->
+          <section class="col-6 col-12-mobile">
+            <header>
+              <h2 class="icon solid fa-envelope circled"><span class="label">Contact</span></h2>
+            </header>
+            <ul class="contact">
+              <li class="fa-envelope-o"><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+              {% if site.street_address or site.city %}
+              <li class="fa-home">{{ site.street_address }}<br />
+              {{ site.city }}, {{ site.state }} {{ site.zip_code }}<br />
+              {{ site.country }}</li>
+              {% endif %}
+            </ul>
+            <ul class="icons">
+              {% if site.twitter_url %}
+              <li><a href="{{ site.twitter_url }}" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+              {% endif %}
+              {% if site.facebook_url %}
+              <li><a href="{{ site.facebook_url }}" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+              {% endif %}
+              {% if site.instagram_url %}
+              <li><a href="{{ site.instagram_url }}" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+              {% endif %}
+              {% if site.pinterest_url %}
+              <li><a href="{{ site.pinterest_url }}" class="icon brands fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
+              {% endif %}
+              {% if site.google_scholar_url %}
+              <li><a href="{{ site.google_scholar_url }}" class="icon solid fa-graduation-cap" target="_blank"><span class="label">Google Scholar</span></a></li>
+              {% endif %}
+              {% if site.500px_url %}
+              <li><a href="{{ site.500px_url }}" class="icon brands fa-500px" target="_blank"><span class="label">500px</span></a></li>
+              {% endif %}
+              {% if site.gitlab_url %}
+              <li><a href="{{ site.gitlab_url }}" class="icon brands fa-gitlab" target="_blank"><span class="label">GitLab</span></a></li>
+              {% endif %}
+              {% if site.github_url %}
+              <li><a href="{{ site.github_url }}" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+              {% endif %}
+              {% if site.slack_url %}
+              <li><a href="{{ site.slack_url }}" class="icon brands fa-slack" target="_blank"><span class="label">Slack</span></a></li>
+              {% endif %}
+              {% if site.linkedin_url %}
+              <li><a href="{{ site.linkedin_url }}" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+              {% endif %}
+            </ul>
+          </section>
+
+        <!-- Photos -->
+          <section class="col-6 col-12-mobile">
+            <header>
+              <h2 class="icon solid fa-camera circled"><span class="label">Fieldwork</span></h2>
+            </header>
+            <div class="row gtr-25">
+              <div class="col-6">
+                <a href="{{ 'Fieldwork' | absolute_url }}" class="image fit"><img src="{{ 'assets/images/DJI_0266.jpeg' | relative_url }}" alt="" /></a>
+              </div>
+              <div class="col-6">
+                <a href="{{ 'Fieldwork' | absolute_url }}" class="image fit"><img src="{{ 'assets/images/IMG_8209.jpeg' | relative_url }}" alt="" /></a>
+              </div>
+              <div class="col-6">
+                <a href="{{ 'Fieldwork' | absolute_url }}" class="image fit"><img src="{{ 'assets/images/DJI_0121.jpeg' | relative_url }}" alt="" /></a>
+              </div>
+              <div class="col-6">
+                <a href="{{ 'Fieldwork' | absolute_url }}" class="image fit"><img src="{{ 'assets/images/IMG_6775.jpeg' | relative_url }}" alt="" /></a>
+              </div>
+              <div class="col-6">
+                <a href="{{ 'Fieldwork' | absolute_url }}" class="image fit"><img src="{{ 'assets/images/IMG_7630.jpeg' | relative_url }}" alt="" /></a>
+              </div>
+              <div class="col-6">
+                <a href="{{ 'Fieldwork' | absolute_url }}" class="image fit"><img src="{{ 'assets/images/IMG_5223.jpeg' | relative_url }}" alt="" /></a>
+              </div>
+            </div>
+          </section>
+
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-12">
+          <div class="copyright">
+            <ul class="menu">
+              <li>&copy; {{ site.title }}. All rights reserved.</li><li>Design: <a href="https://html5up.net">HTML5 UP</a>.</li><li>Jekyll integration: <a href="https://andrewbanchi.ch">Andrew Banchich</a>.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

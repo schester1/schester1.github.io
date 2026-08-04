@@ -1,6 +1,7 @@
 # Site settings
 title: Sam Chester
 subtitle: PhD Candidate
+header_image: assets/images/IMG_4436.jpeg
 email: schester@ldeo.columbia.edu
 description: Sam Chester
 baseurl: "" # the subpath of your site, e.g. /blog

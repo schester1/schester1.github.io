@@ -20,6 +20,18 @@ GIA drove spatially variabily sea-level change along Northern Hemisphere coastli
 
 <p>GIA models are available in a number of programming languages and from multiple research groups. We (Roger Creel and I)translated a 1D GIA model originally written in Matlab by Jacqueline Austermann to the Julia Programming Language to gain some speed and efficiency. The code is available on <a href="https://github.com/rcameronc/FastGIA.jl">github</a>. Please reach out if you are interested in using the GIA code!</p>
 
+
+<h2 id="1">Bayesian Data-Model Assimilation Ice Sheet Reconstructions</h2>
+
+<p><span class="image right"><img src="assets/images/Isochrons_Fig.jpg" alt="" /></span>
+
+
+<p>Recosntruction past ice sheet extent allows us to investigate the drivers of ice sheet collapse and helps understand the (in)stability of the modern Greenland and Antarctic Ice sheets. These reconstructions typically use geomorphic mapping and geochronology (cosmogenic nuclides radiocarbon) to determine past extent. Alternatively, physics-based models of ice flow provide reconstructions of deglaciation. My work seeks to bridge these approacheds and to quantified the uncertainty of paleo-ice extent using a Bayesian framework. Our data-Assimilation-based Laurentide Ice Sheet reconstruction (ALIS) provides a probabilistic model for ice margin extent over the deglaciation. By comparing to paleoclimate proxies and surficial geology, we find that the rates of Laurentide Ice Sheet collapse were largely dictated by the distribution of soft basal sediment, which allowed for fast flowing ice (ice streams) to develop and initated a positive feedback of ice loss. </p>
+<p>
+ALIS has the ability to predict deglaciation time across North America with quantified uncertainty. I built this tool to extract a deglaciation age from any location in North America. The full ALIS posterior is openly available here.  
+</p>
+
+
 <h2 id="1">Feedbacks between GIA and Marine-based Ice Sheets</h2>
 
 <p>Ice sheets are highly sensitive to changes in local topography and relative sea level. Over glacial cycles, sea level variations are primarily controlled by ice volume changes and GIA. As ice sheets grow and shrink they change the local topography and gravity field both of which modulate relative sea level. Such effects can result in critical feedbacks between GIA and ice sheet dynamics, notably the possible stabilization of the grounding line during ice mass loss. 
