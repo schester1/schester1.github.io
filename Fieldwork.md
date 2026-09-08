@@ -79,7 +79,7 @@ I spent the 25-26 season at Crary Ice Rise in West Antarctica. I was there with 
 
 
 During the summer of 2025, I spent four weeks as teaching faculty with the Juneau Icefield Research Program. I led workshops on glacial geomorphology, GIA and sea-level change, and remote sensing with QGIS. During the second half of the course I helped students design and implement their own research project that aimed to constrain isostatic rebound on the icefield. 
-Photos, left to right: The Gilkey Trench, South Blob Nunatak, Supraglacial Lake on the Taku Galcier, Coastal Helicopter departing camp, GIA graphic by JIRP students, Block 2 Teaching Faculty.
+Photos, left to right: The Gilkey Trench, South Blob Nunatak, Supraglacial Lake on the Taku Glacier, Coastal Helicopter departing camp, GIA graphic by JIRP students, Block 2 Teaching Faculty.
 First three photos taken using a DJI drone
 
 <h2 id="1">Skjervøy, Norway </h2>
